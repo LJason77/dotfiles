@@ -1,0 +1,56 @@
+{
+	"workbench.startupEditor": "newUntitledFile",
+	"editor.insertSpaces": false,
+	"editor.wordWrap": "on",
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	"editor.formatOnType": true,
+	"editor.formatOnPaste": true,
+	"http.proxy": "http://127.0.0.1:8123",
+	"http.proxyStrictSSL": false,
+	"java.errors.incompleteClasspath.severity": "ignore",
+	"editor.multiCursorModifier": "ctrlCmd",
+	"files.autoGuessEncoding": true,
+	"css.lint.duplicateProperties": "warning",
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"files.associations": {
+		"*.md": "markdown"
+	},
+	"files.autoSave": "afterDelay",
+	"files.autoSaveDelay": 30000,
+	"window.openFilesInNewWindow": "on",
+	"window.openFoldersInNewWindow": "on",
+	"plantuml.server": "http://localhost:8080",
+	"plantuml.render": "PlantUMLServer",
+	"latex-workshop.view.pdf.hand": true,
+	"latex-workshop.latex.toolchain": [
+		{
+			"command": "", // 注意这里是留空的
+			"args": [
+				"-synctex=1",
+				"-interaction=nonstopmode",
+				"-file-line-error",
+				"%DOC%"
+			]
+		}
+	],
+	"markdown-pdf.type": "html",
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+	"explorer.confirmDragAndDrop": false,
+	"update.showReleaseNotes": false,
+	"git.ignoreMissingGitWarning": true,
+	"git.path": "/usr/bin/git",
+	"python.jediEnabled": false,
+	"python.linting.pylintEnabled": true,
+	"editor.fontFamily": "Fira Code Retina",
+	"cosmosDB.showSavePrompt": false,
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"workbench.commandPalette.preserveInput": true,
+	"markdown.preview.breaks": true
+}

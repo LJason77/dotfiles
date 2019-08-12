@@ -1,0 +1,54 @@
+[user]
+	email = ljason@ljason.cn
+	name = LJason
+	signingKey = 3406E0C78C7DAACC
+[push]
+	default = matching
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+[color]
+	ui = always
+	branch = always
+	diff = always
+	interactive = always
+	status = always
+	grep = always
+	pager = true
+	decorate = always
+	showbranch = always
+[diff]
+	renames = copies
+	colorMoved = dimmed_zebra
+	submodule = log
+[gpg]
+	program = gpg
+[core]
+	autocrlf = false
+	safecrlf = true
+	quotepath = false
+	editor = vi
+	whitespace = cr-at-eol
+	symlinks = true
+[alias]
+	a = add
+	lg = log --graph --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s' --abbrev-commit --date=iso
+	s = status
+	cm = commit -m
+	d = diff
+[http]
+	proxy = http://127.0.0.1:8123
+[https]
+	proxy = http://127.0.0.1:8123
+[credential]
+	helper = cache
+[help]
+	autoCorrect = 30
+[gui]
+	encoding = utf-8
+[i18n]
+	commitEncoding = utf-8
+	logOutputEncoding = utf-8
+[branch]
+	autosetuprebase = always
