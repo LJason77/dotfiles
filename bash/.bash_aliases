@@ -14,7 +14,7 @@ alias l='ls -CF'
 
 alias fq='export http_proxy=http://127.0.0.1:8123/ && export https_proxy=http://127.0.0.1:8123/ && curl ip.sb'
 alias unfanqiang='unset http_proxy && unset https_proxy && curl ip.sb'
-alias up='sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove --purge && sudo apt autoclean && sudo apt clean'
+alias up='sudo apt -y update && sudo apt -y upgrade && sudo apt -y dist-upgrade && sudo apt -y autoremove --purge && sudo apt autoclean && sudo apt clean && sudo rpi-update'
 
 if [ $UID -ne 0 ] ; then
 	alias reboot='sudo reboot'
@@ -25,6 +25,5 @@ alias ..='cd ..'
 alias mkdir='mkdir -pv'
 
 alias renet='sudo systemctl restart network-manager.service'
-alias gource='gource --load-config ~/.gource.conf '
 alias gitgc='git fsck --full && git reflog expire --expire=now --all && git gc --prune=now'
 alias wget='wget -c'
