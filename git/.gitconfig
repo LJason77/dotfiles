@@ -36,6 +36,7 @@
 	lg = log --graph --pretty=format:'%C(yellow)%h %Cblue%>(12)%ad %Cgreen%<(7)%aN%Cred%d %Creset%s' --abbrev-commit --date=iso
 	s = status
 	cm = commit -m
+	cam = commit -a -m
 	d = diff
 [http]
 	proxy = http://127.0.0.1:8123
