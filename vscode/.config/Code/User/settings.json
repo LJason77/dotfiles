@@ -52,5 +52,7 @@
 	"editor.formatOnSave": true,
 	"editor.minimap.enabled": false,
 	"workbench.commandPalette.preserveInput": true,
-	"markdown.preview.breaks": true
+	"markdown.preview.breaks": true,
+	"sync.gist": "099ceff893ebbbaa93a118bc3bc75908",
+	"workbench.colorTheme": "Dracula"
 }

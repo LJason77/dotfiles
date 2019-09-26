@@ -98,6 +98,19 @@ fi
 
 HISTTIMEFORMAT="%F %T "
 
+# set Java environment
+JAVA_HOME=/usr/jdk
+export JRE_HOME=/usr/jdk/jre
+export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASSPATH
+
+# set Android Studio
+ANDROID_SDK=~/Android/Sdk
+
+GOROOT=/usr/go
+GOPATH=$GOROOT/bin
+
+export PATH=~/Documents/Script:$JAVA_HOME/bin:$JRE_HOME/bin:$ANDROID_SDK/tools:$ANDROID_SDK/platform-tools:$GOPATH:$GOPATH/bin:$PATH
+
 # get current branch in git repo
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`

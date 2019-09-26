@@ -1,5 +1,4 @@
 set nocompatible
-source ~/.vim/autoload/supertab.vim
 cmap w!! %!sudo tee > /dev/null %
 set nu
 set hlsearch
