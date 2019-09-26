@@ -28,7 +28,7 @@
 	autocrlf = false
 	safecrlf = true
 	quotepath = false
-	editor = vi
+	editor = code --wait
 	whitespace = cr-at-eol
 	symlinks = true
 [alias]

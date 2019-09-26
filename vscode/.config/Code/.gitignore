@@ -1,0 +1,14 @@
+Backups/
+Cache*/
+Cookies*
+GPU*/
+Network*
+User/globalStorage/
+User/syncLocalSettings.json
+User/workspaceStorage/
+clp/
+languagepacks.json
+logs/
+machineid
+rapid_render.json
+storage.json

@@ -1,0 +1,12 @@
+// 将键绑定放在此文件中以覆盖默认值auto[]
+[
+	{
+		"key": "ctrl+u",
+		"command": "-cursorUndo",
+		"when": "textInputFocus"
+	},
+	{
+		"key": "ctrl+u",
+		"command": "editor.action.transformToLowercase"
+	}
+]
