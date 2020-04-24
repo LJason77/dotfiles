@@ -25,6 +25,8 @@ alias ..='cd ..'
 alias mkdir='mkdir -pv'
 
 alias renet='sudo systemctl restart network-manager.service'
+alias redesktop="kill -s 9 `ps -ef | grep gnome-shell | grep -v server | grep -v grep | grep $(whoami) | awk '{print $2}'`"
 alias gource='gource --load-config ~/.gource.conf '
 alias gitgc='git fsck --full && git reflog expire --expire=now --all && git gc --prune=now'
 alias wget='wget -c'
+alias pip3='sudo pip3 --proxy http://127.0.0.1:8123'

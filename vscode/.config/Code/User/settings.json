@@ -13,11 +13,11 @@
 	"http.proxyStrictSSL": false,
 	"java.errors.incompleteClasspath.severity": "ignore",
 	"editor.multiCursorModifier": "ctrlCmd",
-	"files.autoGuessEncoding": true,
 	"css.lint.duplicateProperties": "warning",
 	"typescript.format.placeOpenBraceOnNewLineForFunctions": true,
 	"files.associations": {
-		"*.md": "markdown"
+		"*.md": "markdown",
+		"*.rst": "restructuredtext"
 	},
 	"files.autoSave": "afterDelay",
 	"files.autoSaveDelay": 30000,
@@ -54,5 +54,7 @@
 	"workbench.commandPalette.preserveInput": true,
 	"markdown.preview.breaks": true,
 	"sync.gist": "099ceff893ebbbaa93a118bc3bc75908",
-	"workbench.colorTheme": "Dracula"
+	"workbench.colorTheme": "Dracula",
+	"explorer.confirmDelete": false,
+	"todo-tree.tree.showScanModeButton": false
 }

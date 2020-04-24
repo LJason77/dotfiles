@@ -12,3 +12,6 @@ logs/
 machineid
 rapid_render.json
 storage.json
+Code Cache/
+Session Storage/
+TransportSecurity
