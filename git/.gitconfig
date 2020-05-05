@@ -39,6 +39,7 @@
 	d = diff
 [http]
 	proxy = http://127.0.0.1:8123
+	postBuffer = 102400000
 [https]
 	proxy = http://127.0.0.1:8123
 [credential]
@@ -52,3 +53,8 @@
 	logOutputEncoding = utf-8
 [branch]
 	autosetuprebase = always
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
