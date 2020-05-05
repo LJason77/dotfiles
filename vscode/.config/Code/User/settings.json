@@ -56,5 +56,8 @@
 	"sync.gist": "099ceff893ebbbaa93a118bc3bc75908",
 	"workbench.colorTheme": "Dracula",
 	"explorer.confirmDelete": false,
-	"todo-tree.tree.showScanModeButton": false
+	"todo-tree.tree.showScanModeButton": false,
+	"sync.autoUpload": true,
+	"sync.autoDownload": true,
+	"sync.quietSync": true
 }
